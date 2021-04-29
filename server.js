@@ -15,6 +15,8 @@ mongoose.connect(
     "mongodb+srv://DavidBushard:DavidBushard@cluster0.qszqz.mongodb.net/workout?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
     useFindAndModify: false,
   }
 );
