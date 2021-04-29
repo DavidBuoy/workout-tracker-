@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 mongoose.connect(
   process.env.MONGODB_URI ||
-    "mongodb+srv://DavidBushard:DavidBushard@cluster0.qszqz.mongodb.net/workout?retryWrites=true&w=majority",
+    "mongodb+srv://DavidBushard:DavidBushard@cluster0.qszqz.mongodb.net/workouts?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
