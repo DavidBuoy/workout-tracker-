@@ -2,7 +2,7 @@ let mongoose = require("mongoose");
 let db = require("../models");
 
 mongoose.connect(
-  "mongodb+srv://DavidBushard:DavidBushard@cluster0.qszqz.mongodb.net/workouts?retryWrites=true&w=majority",
+  "mongodb+srv://DavidBushard:DavidBushard@cluster0.qszqz.mongodb.net/workout?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useFindAndModify: false,
